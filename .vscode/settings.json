@@ -1,0 +1,18 @@
+{
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/*": true,
+    "**/dist/*": true
+  }
+}
