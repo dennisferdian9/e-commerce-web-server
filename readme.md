@@ -6,6 +6,7 @@
 - npm i
 - setup .env DATABASE_URL= like .env.example
 - npm run dev
+- get localhost:8080/
 
 ## Endpoint
 ### Products
